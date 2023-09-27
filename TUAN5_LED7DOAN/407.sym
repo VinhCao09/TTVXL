@@ -1,0 +1,117 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004.0   step_motor_enable
+004-005 rbdc
+004.1   step_motor_in1
+004.2   step_motor_in2
+004.3   step_motor_in3
+004.4   step_motor_in4
+004.5   dc_enable
+004.6   pwrkey
+005.0   buzzer
+005.1   triac_1
+005.2   triac_2
+005.3   relay_1
+005.4   relay_2
+006     lcddata
+007     lcdcontrol
+008     glcddata
+009     glcdcontrol
+00A-011 led_7dq
+012     tt8led
+013-014 i
+015-016 xuat_1word.w
+015     @delay_ms1.P1
+015     MAIN.@SCRATCH1
+016     MAIN.@SCRATCH2
+017     xuat_1word.b1
+017     MAIN.@SCRATCH3
+018     xuat_1word.b0
+018     MAIN.@SCRATCH4
+019     MAIN.@SCRATCH5
+01A     MAIN.@SCRATCH6
+01B-01C @DIVS1616.P1
+01B     MAIN.@SCRATCH7
+01C     MAIN.@SCRATCH8
+01D-01E @DIVS1616.P1
+01D     MAIN.@SCRATCH9
+01E     xuat_4led_7doan_4so.bl743
+01F     xuat_4led_7doan_4so.bl742
+01F     @DIVS1616.@SCRATCH1
+020     xuat_4led_7doan_4so.bl741
+020     @DIVS1616.@SCRATCH2
+021     xuat_4led_7doan_4so.bl740
+022     xuat_1byte.x
+022.7   xuat_1byte.bseri
+023     xuat_1byte.sb
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  ma7doan.call
+000014  ma7doan.data
+000024  xuat_1byte
+00004A  xuat_1word
+000060  xoa_tat_6module
+0000B8  set_up_port_ic_chot
+0000F2  @DIVS1616
+000166  xuat_4led_7doan_4so
+00018A  @delay_ms1
+0001B2  MAIN
+0001B2  @cinit1
+0001DE  @cinit2
+
+Project Directory:
+    D:\TTVXL\TUAN5_LED7DOAN\
+
+Project Files:
+    407.c                                                   [21-Sep-23 13:41  CRC=C7F689E2]
+    ..\..\TTVXL_TH\tv_pickit2_shift_1.c                     [20-Aug-22 06:48  CRC=1A8E8D9B]
+    ..\..\TTVXL_TH\tv_pickit2_shift_1.h                     [20-Aug-22 06:49  CRC=F281E057]
+    C:\Program Files (x86)\PICC\Devices\18f4550.h           [21-Jan-21 11:37  CRC=71B7866C]
+
+Source signature=B87604AC
+Program memory checksum=0000
+Hex file CRC=220F
+
+Units:
+    D:\TTVXL\TUAN5_LED7DOAN\407 (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Output Files:
+    XREF file:   407.xsym
+    Errors:      407.err
+    Ext Symbols: 407.esym
+    INHX32:      407.hex
+    Symbols:     407.sym
+    List:        407.lst
+    Debug/COFF:  407.cof
+    Project:     407.ccspjt
+    Call Tree:   407.tre
+    Statistics:  407.STA

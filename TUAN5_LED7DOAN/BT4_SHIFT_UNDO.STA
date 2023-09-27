@@ -1,0 +1,59 @@
+
+ROM used:   1050/32768 (3%)
+            1050/32768 (3%) including unused fragments
+
+            0.7 Average locations per line
+            4.1 Average locations per statement
+
+RAM used:   41/2048 (2%) at main() level
+            47/2048 (2%) worst case
+
+Stack used: 0 worst case (0 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   46    21   8  BT4_SHIFT_UNDO.c
+  463   186  72  ..\..\TTVXL_TH\tv_pickit2_shift_1.c
+   72     0   0  ..\..\TTVXL_TH\tv_pickit2_shift_1.h
+  876     0   0  C:\Program Files (x86)\PICC\Devices\18f4550.h
+  121    50  19  ..\..\TTVXL_TH\tv_pickit2_shift_key4x4_138.c
+----- -----
+ 1578   257 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     40   2    1             @delay_ms1
+0     32   2    0             @const750
+0     38   2    2    234  4.3  xuat_1byte
+0     22   1    4    131  2.8  xuat_1word
+0     88   4    0    396  1.4  xoa_tat_6module
+0     58   3    0    253  2.3  set_up_port_ic_chot
+0     34   2    4    160  1.8  xuat_4led_7doan_4so
+0     20   1    0    361  5.6  @const875
+0    118   6    4    627  8.1  KEY_NHAN
+0     76   4    2             @MUL88
+0     44   2    0    181  4.3  KEY_4X4_DW
+0    372  18    5    986  7.8  SHIFT_AND_UNDO
+0    104   5    0     61  1.8  MAIN
+ Inline         0    986  7.8  @cinit1
+
+Program metrics:
+    Functions               11
+    Statements              257
+    Comments                337
+    Volume (V)              6837
+    Difficulty (D)          48.2
+    Effort to implement (E) 329841
+    Time to implement (T)   5 hours, 5 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   23
+    Maintainability (MI)    124
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  1046  31718  
+
+
+

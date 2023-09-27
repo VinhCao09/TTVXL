@@ -1,0 +1,110 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004.0   step_motor_enable
+004-005 rbdc
+004.1   step_motor_in1
+004.2   step_motor_in2
+004.3   step_motor_in3
+004.4   step_motor_in4
+004.5   dc_enable
+004.6   pwrkey
+005.0   buzzer
+005.1   triac_1
+005.2   triac_2
+005.3   relay_1
+005.4   relay_2
+006     lcddata
+007     lcdcontrol
+008     glcddata
+009     glcdcontrol
+00A-011 led_7dq
+012     tt8led
+013-016 y
+017-018 k
+019-01A i
+01B-01C run
+01D-01E save
+01F-020 xuat_1word.w
+01F     @delay_ms1.P1
+01F     MAIN.@SCRATCH1
+020     MAIN.@SCRATCH2
+021     xuat_1word.b1
+021     MAIN.@SCRATCH3
+022     xuat_1word.b0
+022     MAIN.@SCRATCH4
+023     MAIN.@SCRATCH5
+024     xuat_32led_don_4byte.bld3
+025     xuat_32led_don_4byte.bld2
+026     xuat_32led_don_4byte.bld1
+027     xuat_32led_don_4byte.bld0
+028     xuat_1byte.x
+028.7   xuat_1byte.bseri
+029     xuat_1byte.sb
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  xuat_1byte
+000034  xuat_1word
+00004A  xoa_tat_6module
+0000A2  set_up_port_ic_chot
+0000DC  xuat_32led_don_4byte
+000100  @delay_ms1
+000128  @cinit1
+000128  MAIN
+000154  @cinit2
+
+Project Directory:
+    D:\TTVXL\TUAN2\
+
+Project Files:
+    SANG_DON_16LED.c                                        [31-Aug-23 14:54  CRC=78E8EE2C]
+    ..\..\TTVXL_TH\tv_pickit2_shift_1.c                     [20-Aug-22 06:48  CRC=1A8E8D9B]
+    ..\..\TTVXL_TH\tv_pickit2_shift_1.h                     [20-Aug-22 06:49  CRC=F281E057]
+    C:\Program Files (x86)\PICC\Devices\18f4550.h           [21-Jan-21 11:37  CRC=71B7866C]
+
+Source signature=696868F6
+Program memory checksum=0000
+Hex file CRC=0D3F
+
+Units:
+    D:\TTVXL\TUAN2\SANG_DON_16LED (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Output Files:
+    XREF file:   SANG_DON_16LED.xsym
+    Errors:      SANG_DON_16LED.err
+    Ext Symbols: SANG_DON_16LED.esym
+    INHX32:      SANG_DON_16LED.hex
+    Symbols:     SANG_DON_16LED.sym
+    List:        SANG_DON_16LED.lst
+    Debug/COFF:  SANG_DON_16LED.cof
+    Project:     SANG_DON_16LED.ccspjt
+    Call Tree:   SANG_DON_16LED.tre
+    Statistics:  SANG_DON_16LED.STA

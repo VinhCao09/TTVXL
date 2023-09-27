@@ -1,0 +1,66 @@
+
+ROM used:   3006/32768 (9%)
+            3006/32768 (9%) including unused fragments
+
+            1.8 Average locations per line
+            7.8 Average locations per statement
+
+RAM used:   63/2048 (3%) at main() level
+            86/2048 (4%) worst case
+
+Stack used: 4 worst case (2 in main + 2 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  275   197  51  BT5_NUTNHAN_10HIEUUNG_INTERRUPT.c
+  463   186  49  ..\..\TTVXL_TH\tv_pickit2_shift_1.c
+   72     0   0  ..\..\TTVXL_TH\tv_pickit2_shift_1.h
+  876     0   0  C:\Program Files (x86)\PICC\Devices\18f4550.h
+----- -----
+ 1686   383 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     38   1    1             @delay_ms1
+0     38   1    2    234  4.3  xuat_1byte
+0     34   1    4    160  1.8  xuat_32led_don_4byte
+0     22   0    4    131  2.8  xuat_1word
+0     88   1    0    396  1.4  xoa_tat_6module
+0     58   1    0    253  2.3  set_up_port_ic_chot
+0     14   0    1     48  2.1  CLR_BUTTON
+0    116   2    0    272  5.0  KIEU1
+0    140   2   15    262  5.5  KIEU2
+0    140   2   15    264  5.9  KIEU3
+0    114   2    0    242  5.4  KIEU4
+0    230   4   15    465  6.6  KIEU5
+0    354   6   15    694  7.2  KIEU6
+0    268   4   15    612  6.7  KIEU7
+0    258   4   15    609  6.2  KIEU8
+0    302   5   16    722  6.7  KIEU9
+0    280   5    1    766  5.3  KIEU10
+0    240   4    0    599  4.2  MAIN
+0    102   2    1    442  4.7  NGAT_NGOAI_RB
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               18
+    Statements              383
+    Comments                289
+    Volume (V)              12374
+    Difficulty (D)          84.9
+    Effort to implement (E) 1050700
+    Time to implement (T)   16 hours, 13 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   45
+    Maintainability (MI)    83
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000AC   166  0  
+000AE-07FFE  2836  29758  
+
+
+

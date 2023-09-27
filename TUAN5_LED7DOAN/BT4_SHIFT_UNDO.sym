@@ -1,0 +1,128 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004.0   step_motor_enable
+004-005 rbdc
+004.1   step_motor_in1
+004.2   step_motor_in2
+004.3   step_motor_in3
+004.4   step_motor_in4
+004.5   dc_enable
+004.6   pwrkey
+005.0   buzzer
+005.1   triac_1
+005.2   triac_2
+005.3   relay_1
+005.4   relay_2
+006     lcddata
+007     lcdcontrol
+008     glcddata
+009     glcdcontrol
+00A-011 led_7dq
+012     tt8led
+013     MPT1
+014     MPT2
+015-016 k
+017-018 i
+019-01A temp
+01B-01C mp
+01D-020 DL_4L7D
+021-028 stored_data
+029     KEY_NHAN.MAPHIM
+029-02A xuat_1word.w
+029     xuat_4led_7doan_4so.bl743
+029     @delay_ms1.P1
+029     SHIFT_AND_UNDO.@SCRATCH1
+02A     xuat_4led_7doan_4so.bl742
+02A     KEY_NHAN.HANG
+02A     SHIFT_AND_UNDO.@SCRATCH2
+02B     KEY_NHAN.COT
+02B     xuat_1word.b1
+02B     xuat_4led_7doan_4so.bl741
+02B     SHIFT_AND_UNDO.@SCRATCH3
+02C     xuat_1word.b0
+02C     @MUL88.P1
+02C     xuat_4led_7doan_4so.bl740
+02C     KEY_NHAN.@SCRATCH1
+02C     SHIFT_AND_UNDO.@SCRATCH4
+02D     xuat_1byte.x
+02D     @MUL88.P1
+02D.7   xuat_1byte.bseri
+02D     SHIFT_AND_UNDO.@SCRATCH5
+02E     xuat_1byte.sb
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @READ_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  ma7doan.call
+000014  ma7doan.data
+000024  MAQUETKEY.call
+000034  MAQUETKEY.data
+000038  xuat_1byte
+00005E  xuat_1word
+000074  xoa_tat_6module
+0000CC  set_up_port_ic_chot
+000106  @MUL88
+000152  KEY_NHAN
+0001C8  @delay_ms1
+0001F0  KEY_4X4_DW
+00021C  xuat_4led_7doan_4so
+00023E  SHIFT_AND_UNDO
+0003B2  @cinit1
+0003B2  MAIN
+0003E2  @cinit2
+
+Project Directory:
+    D:\TTVXL\TUAN5_LED7DOAN\
+
+Project Files:
+    BT4_SHIFT_UNDO.c                                        [21-Sep-23 15:27  CRC=D8A97421]
+    ..\..\TTVXL_TH\tv_pickit2_shift_1.c                     [21-Sep-23 15:10  CRC=1A8E8D9B]
+    ..\..\TTVXL_TH\tv_pickit2_shift_1.h                     [20-Aug-22 06:49  CRC=F281E057]
+    C:\Program Files (x86)\PICC\Devices\18f4550.h           [21-Jan-21 11:37  CRC=71B7866C]
+    ..\..\TTVXL_TH\tv_pickit2_shift_key4x4_138.c            [21-Sep-23 15:34  CRC=2910C7ED]
+
+Source signature=A992F859
+Program memory checksum=0000
+Hex file CRC=8059
+
+Units:
+    D:\TTVXL\TUAN5_LED7DOAN\BT4_SHIFT_UNDO (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Output Files:
+    XREF file:   BT4_SHIFT_UNDO.xsym
+    Errors:      BT4_SHIFT_UNDO.err
+    Ext Symbols: BT4_SHIFT_UNDO.esym
+    INHX32:      BT4_SHIFT_UNDO.hex
+    Symbols:     BT4_SHIFT_UNDO.sym
+    List:        BT4_SHIFT_UNDO.lst
+    Debug/COFF:  BT4_SHIFT_UNDO.cof
+    Project:     BT4_SHIFT_UNDO.ccspjt
+    Call Tree:   BT4_SHIFT_UNDO.tre
+    Statistics:  BT4_SHIFT_UNDO.STA

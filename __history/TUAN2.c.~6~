@@ -1,0 +1,28 @@
+#include <D:\TTVXL_TH\tv_pickit2_shift_1.c>
+unsigned int8 y;
+
+void xuat_32led_don_4byte(unsigned int8 
+bld3,bld2,bld1,bld0)
+{ 
+ xuat_1byte(bld3); 
+ xuat_1byte(bld2);
+ xuat_1byte(bld1); 
+ xuat_1byte(bld0);
+ 
+ mo_ic_74573_a_thong_dl();
+ output_high(rck_32leddon); 
+output_low(rck_32leddon);
+ mo_32_led_don; 
+ chot_ic_74573_a_goi_du_lieu; 
+}
+
+void main()
+{
+set_up_port_ic_chot();
+ while(true)
+ {
+ xuat_32led_don_4byte(0,0,0,0);
+
+ }
+}
+

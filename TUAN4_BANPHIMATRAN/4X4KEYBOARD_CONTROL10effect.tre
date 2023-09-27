@@ -1,0 +1,136 @@
+ÀÄ4X4KEYBOARD_CONTROL10effect
+   ÀÄMAIN  0/226  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@cinit2  (Inline)  Ram=0
+      ÃÄset_up_port_ic_chot  0/58  Ram=0
+      ³  ÀÄxoa_tat_6module  0/88  Ram=0
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³     ³  ÀÄxuat_1byte  0/38  Ram=2
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÀÄxuat_1word  0/22  Ram=4
+      ³        ÀÄ*
+      ÃÄKIEU1  0/94  Ram=0
+      ³  ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+      ³  ³  ÀÄKEY_4X4_DW  0/44  Ram=0
+      ³  ³     ÃÄKEY_NHAN  0/118  Ram=4
+      ³  ³     ³  ÃÄ@const875  0/20  Ram=0
+      ³  ³     ³  ÀÄ@MUL88  0/76  Ram=2
+      ³  ³     ÃÄ@delay_ms1  0/38  Ram=1
+      ³  ³     ÃÄKEY_NHAN  0/118  Ram=4
+      ³  ³     ³  ÀÄ*
+      ³  ³     ÀÄKEY_NHAN  0/118  Ram=4
+      ³  ³        ÀÄ*
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³  ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³  ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³  ³  ÀÄxuat_1byte  0/38  Ram=2
+      ³  ÃÄ@delay_ms1  0/38  Ram=1
+      ³  ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/38  Ram=1
+      ÃÄKIEU2  0/126  Ram=15
+      ³  ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/38  Ram=1
+      ÃÄKIEU3  0/128  Ram=15
+      ³  ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/38  Ram=1
+      ÃÄKIEU4  0/102  Ram=0
+      ³  ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/38  Ram=1
+      ÃÄKIEU5  0/218  Ram=15
+      ³  ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/38  Ram=1
+      ÃÄKIEU6  0/330  Ram=15
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/38  Ram=1
+      ³  ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/38  Ram=1
+      ÃÄKIEU7  0/242  Ram=15
+      ³  ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/38  Ram=1
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/38  Ram=1
+      ÃÄKIEU8  0/234  Ram=15
+      ³  ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/38  Ram=1
+      ³  ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/38  Ram=1
+      ÃÄKIEU9  0/274  Ram=16
+      ³  ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/38  Ram=1
+      ³  ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄxuat_32led_don_4byte  0/34  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/38  Ram=1
+      ÀÄKIEU10  0/202  Ram=1
+         ÃÄxuat_32led_don_4byte  0/34  Ram=4
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/38  Ram=1
+         ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+         ³  ÀÄ*
+         ÃÄxuat_32led_don_4byte  0/34  Ram=4
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/38  Ram=1
+         ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+         ³  ÀÄ*
+         ÃÄxuat_32led_don_4byte  0/34  Ram=4
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/38  Ram=1
+         ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+         ³  ÀÄ*
+         ÃÄxuat_32led_don_4byte  0/34  Ram=4
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/38  Ram=1
+         ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+         ³  ÀÄ*
+         ÃÄxuat_32led_don_4byte  0/34  Ram=4
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/38  Ram=1
+         ÃÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+         ³  ÀÄ*
+         ÃÄxuat_32led_don_4byte  0/34  Ram=4
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/38  Ram=1
+         ÀÄKIEMTRA_BANPHIM4X4  0/164  Ram=0
+            ÀÄ*

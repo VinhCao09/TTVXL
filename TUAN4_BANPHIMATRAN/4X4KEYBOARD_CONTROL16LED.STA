@@ -1,0 +1,57 @@
+
+ROM used:   688/32768 (2%)
+            688/32768 (2%) including unused fragments
+
+            0.4 Average locations per line
+            2.8 Average locations per statement
+
+RAM used:   29/2048 (1%) at main() level
+            35/2048 (2%) worst case
+
+Stack used: 3 worst case (3 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   28    12   5  4X4KEYBOARD_CONTROL16LED.c
+  463   186  75  ..\..\TTVXL_TH\tv_pickit2_shift_1.c
+   72     0   0  ..\..\TTVXL_TH\tv_pickit2_shift_1.h
+  876     0   0  C:\Program Files (x86)\PICC\Devices\18f4550.h
+  121    50  20  ..\..\TTVXL_TH\tv_pickit2_shift_key4x4_138.c
+----- -----
+ 1560   248 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     40   3    1             @delay_ms1
+0     38   3    2    234  4.3  xuat_1byte
+0     36   3    4    160  1.8  xuat_32led_don_4byte
+0     22   2    4    131  2.8  xuat_1word
+0     88   6    0    396  1.4  xoa_tat_6module
+0     58   4    0    253  2.3  set_up_port_ic_chot
+0     20   1    0    515  7.1  @const875
+0    118   9    4    627  8.1  KEY_NHAN
+0     76   6    2    262  5.5  @MUL88
+0     44   3    0    181  4.3  KEY_4X4_DW
+0    144  10    2    292  5.1  MAIN
+ Inline         0    694  7.2  @cinit1
+
+Program metrics:
+    Functions               11
+    Statements              248
+    Comments                338
+    Volume (V)              6050
+    Difficulty (D)          50.0
+    Effort to implement (E) 302742
+    Time to implement (T)   4 hours, 40 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   17
+    Maintainability (MI)    125
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE   684  32080  
+
+
+

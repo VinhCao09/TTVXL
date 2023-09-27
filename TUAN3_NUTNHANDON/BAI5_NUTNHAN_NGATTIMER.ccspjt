@@ -1,0 +1,79 @@
+[PROJECT]
+Target=BAI5_NUTNHAN_NGATTIMER.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.101
+Compiler=PCH
+[Target Data]
+FileList=BAI5_NUTNHAN_NGATTIMER.c
+[BAI5_NUTNHAN_NGATTIMER.c]
+Type=4
+[mru-list]
+1=BAI5_NUTNHAN_NGATTIMER.c
+
+[defines]
+buildcount=4
+
+[ProjectLog]
+Days=3
+D1=13-09-2023
+D1_L=14
+D1_L1=[51532]Project Closed.
+D1_L2=[63436]Project Opened.
+D1_L3=[63437]Project Closed.
+D1_L4=[63438]Project Opened.
+D1_L5=[66442]Project Closed.
+D1_L6=[66685]Project Opened.
+D1_L7=[66686]Project Closed.
+D1_L8=[66687]Project Opened.
+D1_L9=[66694]Project Closed.
+D1_L10=[67762]Project Opened.
+D1_L11=[67763]Project Closed.
+D1_L12=[67765]Project Opened.
+D1_L13=[67869]Started Editing.
+D1_L14=[68043]Project Closed.
+D2=14-09-2023
+D2_L=5
+D2_L1=[49745]Project Opened.
+TotalEdit=8
+TotalDebug=0
+D2_E=8
+D2_D=0
+D2_L2=[49756]Project Closed.
+D2_L3=[49768]Project Opened.
+D2_L4=[49860]Started Editing.
+D2_L5=[49971]Project Closed.
+D3=22-09-2023
+D3_L=10
+D3_L1=[80942]Project Opened.
+D3_L2=[81007]Started Editing.
+D3_L3=[81345]Stopped Editing.
+D3_L4=[81763]Project Closed.
+D3_L5=[81882]Project Opened.
+D3_L6=[81934]Project Closed.
+D3_L7=[82370]Project Opened.
+D3_L8=[82371]Project Closed.
+D3_L9=[82373]Project Opened.
+D3_L10=[82444]Project Closed.
+
+[fileformats]
+forcecoff=0
+
+[Opened Files]
+1=..\TUAN5_LED7DOAN\403.c
+t1=1
+2=..\TUAN5_LED7DOAN\402.c
+t2=1
+3=..\TUAN2\BAI_5_10STYLE.c
+t3=1
+4=BT5_NUTNHAN_10HIEUUNG_INTERRUPT.c
+t4=204
+5=BAI5_NUTNHAN_NGATTIMER.c
+t5=204
+Count=7
+6=..\..\HCMUTE\Junior_Semester 1\HE_THONG_NHUNG\MIDDLE_PROJECT\SSD1306_OLED.c
+t6=1
+7=..\..\HCMUTE\Junior_Semester 1\HE_THONG_NHUNG\MIDDLE_PROJECT\SSD1306OLED.C
+t7=409
+[Units]
+Count=1
+1=BAI5_NUTNHAN_NGATTIMER (main)

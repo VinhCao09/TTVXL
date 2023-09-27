@@ -1,0 +1,24 @@
+[PROJECT]
+Target=401.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.101
+Compiler=PCH
+[Target Data]
+FileList=401.c
+[401.c]
+Type=4
+[mru-list]
+1=401.c
+[Units]
+Count=1
+1=401 (main)
+
+[defines]
+buildcount=1
+
+[ProjectLog]
+Days=1
+D1=21-09-2023
+D1_L=2
+D1_L1=[48029]Started Editing.
+D1_L2=[48048]Project Closed.

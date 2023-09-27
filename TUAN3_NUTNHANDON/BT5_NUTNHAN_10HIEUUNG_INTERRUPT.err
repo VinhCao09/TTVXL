@@ -1,0 +1,5 @@
+Compiling D:\TTVXL\TUAN3_NUTNHANDON\BT5_NUTNHAN_10HIEUUNG_INTERRUPT on 22-Sep-23 at 22:42
+>>> Warning 216 "D:\TTVXL\TUAN3_NUTNHANDON\BT5_NUTNHAN_10HIEUUNG_INTERRUPT.c" Line 274(1,2): Interrupts disabled during call to prevent re-entrancy:  (@delay_ms1)
+      Memory usage:   ROM=9%      RAM=3% - 4%
+      0 Errors,  1 Warnings.
+Build Successful.

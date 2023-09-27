@@ -1,0 +1,68 @@
+
+ROM used:   2880/32768 (9%)
+            2880/32768 (9%) including unused fragments
+
+            1.6 Average locations per line
+            6.7 Average locations per statement
+
+RAM used:   45/2048 (2%) at main() level
+            67/2048 (3%) worst case
+
+Stack used: 3 worst case (3 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  256   195  45  4X4KEYBOARD_CONTROL10effect.c
+  463   186  43  ..\..\TTVXL_TH\tv_pickit2_shift_1.c
+   72     0   0  ..\..\TTVXL_TH\tv_pickit2_shift_1.h
+  876     0   0  C:\Program Files (x86)\PICC\Devices\18f4550.h
+  121    50  12  ..\..\TTVXL_TH\tv_pickit2_shift_key4x4_138.c
+----- -----
+ 1788   431 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     38   1    1             @delay_ms1
+0     38   1    2    234  4.3  xuat_1byte
+0     34   1    4    160  1.8  xuat_32led_don_4byte
+0     22   0    4    131  2.8  xuat_1word
+0     88   2    0    396  1.4  xoa_tat_6module
+0     58   1    0    253  2.3  set_up_port_ic_chot
+0     20   0    0    515  7.1  @const875
+0    118   2    4    627  8.1  KEY_NHAN
+0     76   1    2    262  5.5  @MUL88
+0     44   1    0    181  4.3  KEY_4X4_DW
+0    164   3    0    547  2.9  KIEMTRA_BANPHIM4X4
+0     94   2    0    290  5.1  KIEU1
+0    126   2   15    262  5.5  KIEU2
+0    128   2   15    264  5.9  KIEU3
+0    102   2    0    242  5.4  KIEU4
+0    218   4   15    465  6.6  KIEU5
+0    330   6   15    694  7.2  KIEU6
+0    242   4   15    592  6.7  KIEU7
+0    234   4   15    609  6.2  KIEU8
+0    274   5   16    722  6.7  KIEU9
+0    202   4    1    851  5.3  KIEU10
+0    226   4    0    512  4.2  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               21
+    Statements              431
+    Comments                352
+    Volume (V)              15581
+    Difficulty (D)          105.8
+    Effort to implement (E) 1648386
+    Time to implement (T)   25 hours, 26 minutes
+    Est Delivered Bugs (B)  5
+    Cyclomatic Complexity   60
+    Maintainability (MI)    90
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  2876  29888  
+
+
+

@@ -1,0 +1,122 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004.0   step_motor_enable
+004-005 rbdc
+004.1   step_motor_in1
+004.2   step_motor_in2
+004.3   step_motor_in3
+004.4   step_motor_in4
+004.5   dc_enable
+004.6   pwrkey
+005.0   buzzer
+005.1   triac_1
+005.2   triac_2
+005.3   relay_1
+005.4   relay_2
+006     lcddata
+007     lcdcontrol
+008     glcddata
+009     glcdcontrol
+00A-011 led_7dq
+012     tt8led
+013     MPT1
+014     MPT2
+015     y
+016     yon
+017     yoff
+018-019 mp
+01A     xuat_32led_don_4byte.bld3
+01A-01B xuat_1word.w
+01A     KEY_NHAN.MAPHIM
+01A     @delay_ms1.P1
+01A     MAIN.@SCRATCH1
+01B     KEY_NHAN.HANG
+01B     xuat_32led_don_4byte.bld2
+01B     MAIN.@SCRATCH2
+01C     KEY_NHAN.COT
+01C     xuat_1word.b1
+01C     xuat_32led_don_4byte.bld1
+01C     MAIN.@SCRATCH3
+01D     xuat_32led_don_4byte.bld0
+01D     @MUL88.P1
+01D     xuat_1word.b0
+01D     KEY_NHAN.@SCRATCH1
+01D     MAIN.@SCRATCH4
+01E     xuat_1byte.x
+01E     @MUL88.P1
+01E.7   xuat_1byte.bseri
+01F     xuat_1byte.sb
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  MAQUETKEY.call
+000014  MAQUETKEY.data
+000018  xuat_1byte
+00003E  xuat_1word
+000054  xoa_tat_6module
+0000AC  set_up_port_ic_chot
+0000E6  @MUL88
+000132  KEY_NHAN
+0001A8  @delay_ms1
+0001D0  KEY_4X4_DW
+0001FC  xuat_32led_don_4byte
+00021E  MAIN
+00021E  @cinit1
+00024E  @cinit2
+
+Project Directory:
+    D:\TTVXL\TUAN4_BANPHIMATRAN\
+
+Project Files:
+    BAI_334_MATRANPHIM_8LED_16_BTN_ON_OFF.c                 [14-Sep-23 13:58  CRC=5B2884F6]
+    ..\..\TTVXL_TH\tv_pickit2_shift_1.c                     [20-Aug-22 06:48  CRC=1A8E8D9B]
+    ..\..\TTVXL_TH\tv_pickit2_shift_1.h                     [20-Aug-22 06:49  CRC=F281E057]
+    C:\Program Files (x86)\PICC\Devices\18f4550.h           [21-Jan-21 11:37  CRC=71B7866C]
+    ..\..\TTVXL_TH\tv_pickit2_shift_key4x4_138.c            [14-Sep-23 14:00  CRC=2880452C]
+
+Source signature=2AF103AC
+Program memory checksum=0000
+Hex file CRC=C8D9
+
+Units:
+    D:\TTVXL\TUAN4_BANPHIMATRAN\BAI_334_MATRANPHIM_8LED_16_BTN_ON_OFF (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Output Files:
+    XREF file:   BAI_334_MATRANPHIM_8LED_16_BTN_ON_OFF.xsym
+    Errors:      BAI_334_MATRANPHIM_8LED_16_BTN_ON_OFF.err
+    Ext Symbols: BAI_334_MATRANPHIM_8LED_16_BTN_ON_OFF.esym
+    INHX32:      BAI_334_MATRANPHIM_8LED_16_BTN_ON_OFF.hex
+    Symbols:     BAI_334_MATRANPHIM_8LED_16_BTN_ON_OFF.sym
+    List:        BAI_334_MATRANPHIM_8LED_16_BTN_ON_OFF.lst
+    Debug/COFF:  BAI_334_MATRANPHIM_8LED_16_BTN_ON_OFF.cof
+    Project:     BAI_334_MATRANPHIM_8LED_16_BTN_ON_OFF.ccspjt
+    Call Tree:   BAI_334_MATRANPHIM_8LED_16_BTN_ON_OFF.tre
+    Statistics:  BAI_334_MATRANPHIM_8LED_16_BTN_ON_OFF.STA

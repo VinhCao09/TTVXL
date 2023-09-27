@@ -1,0 +1,94 @@
+[PROJECT]
+Target=BAI_5_10STYLE.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.101
+Compiler=PCH
+[Target Data]
+FileList=BAI_5_10STYLE.c
+[BAI_5_10STYLE.c]
+Type=4
+[mru-list]
+1=BAI_5_10STYLE.c
+
+[defines]
+buildcount=94
+
+[ProjectLog]
+Days=4
+D1=31-08-2023
+D1_L=23
+D1_L1=[53146]Stopped Editing.
+TotalEdit=101
+TotalDebug=0
+D1_E=47
+D1_D=0
+D1_L2=[53146]Project Closed.
+D1_L3=[53236]Project Opened.
+D1_L4=[53275]Started Editing.
+D1_L5=[53293]Stopped Editing.
+D1_L6=[53320]Started Editing.
+D1_L7=[53652]Stopped Editing.
+D1_L8=[53652]Project Closed.
+D1_L9=[53702]Project Opened.
+D1_L10=[53729]Started Editing.
+D1_L11=[53849]Project Closed.
+D1_L12=[54357]Project Opened.
+D1_L13=[54363]Started Editing.
+D1_L14=[54939]Stopped Editing.
+D1_L15=[54939]Project Closed.
+D1_L16=[55264]Project Opened.
+D1_L17=[55287]Started Editing.
+D1_L18=[55680]Stopped Editing.
+D1_L19=[55686]Started Editing.
+D1_L20=[57242]Stopped Editing.
+D1_L21=[57515]Started Editing.
+D1_L22=[57876]Stopped Editing.
+D1_L23=[60458]Project Closed.
+D2=06-09-2023
+D2_L=12
+D2_L1=[34749]Project Opened.
+D2_L2=[34775]Project Closed.
+D2_L3=[42142]Project Opened.
+D2_L4=[42291]Started Editing.
+D2_L5=[45103]Stopped Editing.
+D2_E=48
+D2_D=0
+D2_L6=[45103]Project Closed.
+D2_L7=[45257]Project Opened.
+D2_L8=[45382]Started Editing.
+D2_L9=[45430]Stopped Editing.
+D2_L10=[45430]Project Closed.
+D2_L11=[52087]Project Opened.
+D2_L12=[52098]Project Closed.
+D3=07-09-2023
+D3_L=3
+D3_L1=[46598]Project Opened.
+D3_L2=[47184]Started Editing.
+D3_L3=[47196]Project Closed.
+D4=22-09-2023
+D4_L=8
+D4_L1=[34427]Project Opened.
+D4_L2=[34837]Started Editing.
+D4_L3=[35155]Stopped Editing.
+D4_E=6
+D4_D=0
+D4_L4=[35155]Project Closed.
+D4_L5=[64209]Project Opened.
+D4_L6=[64210]Project Closed.
+D4_L7=[64212]Project Opened.
+D4_L8=[69186]Project Closed.
+
+[Opened Files]
+1=..\TUAN5_LED7DOAN\403.c
+t1=1
+2=..\TUAN5_LED7DOAN\402.c
+t2=1
+Count=3
+3=BAI_5_10STYLE.c
+t3=1
+
+[fileformats]
+forcecoff=0
+[Units]
+Count=1
+1=BAI_5_10STYLE (main)

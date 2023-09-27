@@ -1,0 +1,110 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004.0   step_motor_enable
+004-005 rbdc
+004.1   step_motor_in1
+004.2   step_motor_in2
+004.3   step_motor_in3
+004.4   step_motor_in4
+004.5   dc_enable
+004.6   pwrkey
+005.0   buzzer
+005.1   triac_1
+005.2   triac_2
+005.3   relay_1
+005.4   relay_2
+006     lcddata
+007     lcdcontrol
+008     glcddata
+009     glcdcontrol
+00A-011 led_7dq
+012     tt8led
+013     i
+014-015 xuat_1word.w
+014     @delay_ms1.P1
+014     MAIN.@SCRATCH1
+015     @DIVS88.P1
+015     MAIN.@SCRATCH2
+016     @DIVS88.P1
+016     xuat_4led_7doan_4so.bl743
+016     xuat_1word.b1
+017     xuat_1word.b0
+017     xuat_4led_7doan_4so.bl742
+017     @DIVS88.@SCRATCH1
+018     xuat_4led_7doan_4so.bl741
+018     @DIVS88.@SCRATCH2
+019     xuat_4led_7doan_4so.bl740
+01A     xuat_1byte.x
+01A.7   xuat_1byte.bseri
+01B     xuat_1byte.sb
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  ma7doan.call
+000014  ma7doan.data
+000024  xuat_1byte
+00004A  xuat_1word
+000060  xoa_tat_6module
+0000B8  set_up_port_ic_chot
+0000F2  @DIVS88
+00013A  xuat_4led_7doan_4so
+00015E  @delay_ms1
+000186  MAIN
+000186  @cinit1
+0001B2  @cinit2
+
+Project Directory:
+    D:\TTVXL\TUAN5_LED7DOAN\
+
+Project Files:
+    404.c                                                   [21-Sep-23 13:30  CRC=D872A938]
+    ..\..\TTVXL_TH\tv_pickit2_shift_1.c                     [20-Aug-22 06:48  CRC=1A8E8D9B]
+    ..\..\TTVXL_TH\tv_pickit2_shift_1.h                     [20-Aug-22 06:49  CRC=F281E057]
+    C:\Program Files (x86)\PICC\Devices\18f4550.h           [21-Jan-21 11:37  CRC=71B7866C]
+
+Source signature=C8F22402
+Program memory checksum=0000
+Hex file CRC=2A25
+
+Units:
+    D:\TTVXL\TUAN5_LED7DOAN\404 (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Output Files:
+    XREF file:   404.xsym
+    Errors:      404.err
+    Ext Symbols: 404.esym
+    INHX32:      404.hex
+    Symbols:     404.sym
+    List:        404.lst
+    Debug/COFF:  404.cof
+    Project:     404.ccspjt
+    Call Tree:   404.tre
+    Statistics:  404.STA

@@ -1,0 +1,23 @@
+[PROJECT]
+Target=BAI_301_CHOPTAT_8LED.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.101
+Compiler=PCH
+[Target Data]
+FileList=BAI_301_CHOPTAT_8LED.c
+[BAI_301_CHOPTAT_8LED.c]
+Type=4
+[mru-list]
+1=BAI_301_CHOPTAT_8LED.c
+[Units]
+Count=1
+1=BAI_301_CHOPTAT_8LED (main)
+
+[defines]
+buildcount=1
+
+[ProjectLog]
+Days=1
+D1=31-08-2023
+D1_L=1
+D1_L1=[49317]Project Closed.

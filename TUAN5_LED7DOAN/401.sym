@@ -1,0 +1,98 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004.0   step_motor_enable
+004-005 rbdc
+004.1   step_motor_in1
+004.2   step_motor_in2
+004.3   step_motor_in3
+004.4   step_motor_in4
+004.5   dc_enable
+004.6   pwrkey
+005.0   buzzer
+005.1   triac_1
+005.2   triac_2
+005.3   relay_1
+005.4   relay_2
+006     lcddata
+007     lcdcontrol
+008     glcddata
+009     glcdcontrol
+00A-011 led_7dq
+012     tt8led
+013-014 xuat_1word.w
+013     xuat_4led_7doan_4so.bl743
+014     xuat_4led_7doan_4so.bl742
+015     xuat_4led_7doan_4so.bl741
+015     xuat_1word.b1
+016     xuat_4led_7doan_4so.bl740
+016     xuat_1word.b0
+017     xuat_1byte.x
+017.7   xuat_1byte.bseri
+018     xuat_1byte.sb
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  xuat_1byte
+000034  xuat_1word
+00004A  xoa_tat_6module
+0000A2  set_up_port_ic_chot
+0000DC  xuat_4led_7doan_4so
+000100  MAIN
+000100  @cinit1
+00012C  @cinit2
+
+Project Directory:
+    D:\TTVXL\TUAN5_LED7DOAN\
+
+Project Files:
+    401.c                                                   [21-Sep-23 13:18  CRC=D872A938]
+    ..\..\TTVXL_TH\tv_pickit2_shift_1.c                     [20-Aug-22 06:48  CRC=1A8E8D9B]
+    ..\..\TTVXL_TH\tv_pickit2_shift_1.h                     [20-Aug-22 06:49  CRC=F281E057]
+    C:\Program Files (x86)\PICC\Devices\18f4550.h           [21-Jan-21 11:37  CRC=71B7866C]
+
+Source signature=C8F22402
+Program memory checksum=0000
+Hex file CRC=987E
+
+Units:
+    D:\TTVXL\TUAN5_LED7DOAN\401 (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Output Files:
+    XREF file:   401.xsym
+    Errors:      401.err
+    Ext Symbols: 401.esym
+    INHX32:      401.hex
+    Symbols:     401.sym
+    List:        401.lst
+    Debug/COFF:  401.cof
+    Project:     401.ccspjt
+    Call Tree:   401.tre
+    Statistics:  401.STA

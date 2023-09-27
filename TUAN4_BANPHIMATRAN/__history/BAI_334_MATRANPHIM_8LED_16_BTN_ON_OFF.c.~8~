@@ -1,0 +1,33 @@
+#include <D:\TTVXL_TH\tv_pickit2_shift_1.c>
+//!#include <D:\TTVXL_TH\TV_KIT_KEYPAD_BO138.c>
+#include <D:\TTVXL_TH\tv_pickit2_shift_key4x4_138.c>
+unsigned int8 y,yon,yoff;
+unsigned int16 mp;
+void main()
+{
+y=00000000;
+
+while (true)
+{
+   mp=key_4x4_dw();
+   
+   if (mp!=0xff)
+   {
+         if(mp<8)
+            {
+               yon= 00000001;
+               yon=yon<<mp;
+               y=y|yon;
+               xuat_32led_don_4byte(0,0,0,y);
+            }
+         else
+            {
+            yoff=00000001;
+            yoff=yoff<<(mp-8);
+            yoff=~yoff;
+            y=y&yoff;
+            xuat_32led_don_4byte(0,0,0,y);
+            }
+   }
+}
+}

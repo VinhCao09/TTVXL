@@ -1,0 +1,65 @@
+
+ROM used:   2988/32768 (9%)
+            2988/32768 (9%) including unused fragments
+
+            1.8 Average locations per line
+            8.0 Average locations per statement
+
+RAM used:   63/2048 (3%) at main() level
+            86/2048 (4%) worst case
+
+Stack used: 4 worst case (2 in main + 2 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  273   186  50  BAI5_NUTNHAN_NGATTIMER.c
+  463   186  50  ..\..\TTVXL_TH\tv_pickit2_shift_1.c
+   72     0   0  ..\..\TTVXL_TH\tv_pickit2_shift_1.h
+  876     0   0  C:\Program Files (x86)\PICC\Devices\18f4550.h
+----- -----
+ 1684   372 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     38   1    1             @delay_ms1
+0     38   1    2    234  4.3  xuat_1byte
+0     34   1    4    160  1.8  xuat_32led_don_4byte
+0     22   0    4    131  2.8  xuat_1word
+0     88   1    0    396  1.4  xoa_tat_6module
+0     58   1    0    253  2.3  set_up_port_ic_chot
+0    114   2    0    254  5.0  KIEU1
+0    138   2   15    244  5.5  KIEU2
+0    138   2   15    246  5.9  KIEU3
+0    112   2    0    225  5.4  KIEU4
+0    228   4   15    446  6.6  KIEU5
+0    352   6   15    673  7.2  KIEU6
+0    264   4   15    572  6.7  KIEU7
+0    254   4   15    569  6.2  KIEU8
+0    298   5   16    681  6.7  KIEU9
+0    268   4    1    724  5.3  KIEU10
+0    254   4    0    676  4.7  MAIN
+0    120   2    1    545  4.7  NGAT_TIMER3
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               17
+    Statements              372
+    Comments                289
+    Volume (V)              12053
+    Difficulty (D)          82.8
+    Effort to implement (E) 997841
+    Time to implement (T)   15 hours, 24 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   45
+    Maintainability (MI)    91
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000AC   166  0  
+000AE-07FFE  2818  29776  
+
+
+

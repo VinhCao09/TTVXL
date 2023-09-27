@@ -1,0 +1,23 @@
+[PROJECT]
+Target=BT5_NUTNHAN_10HIEUUNG_INTERRUPT.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.101
+Compiler=PCH
+[Target Data]
+FileList=BT5_NUTNHAN_10HIEUUNG_INTERRUPT.c
+[BT5_NUTNHAN_10HIEUUNG_INTERRUPT.c]
+Type=4
+[mru-list]
+1=BT5_NUTNHAN_10HIEUUNG_INTERRUPT.c
+[Units]
+Count=1
+1=BT5_NUTNHAN_10HIEUUNG_INTERRUPT (main)
+
+[defines]
+buildcount=1
+
+[ProjectLog]
+Days=1
+D1=22-09-2023
+D1_L=1
+D1_L1=[81882]Project Closed.

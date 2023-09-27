@@ -1,0 +1,29 @@
+[PROJECT]
+Target=BAI_308_STDA_PST_TSP_32LED.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.101
+Compiler=PCH
+[Target Data]
+FileList=BAI_308_STDA_PST_TSP_32LED.c
+[BAI_308_STDA_PST_TSP_32LED.c]
+Type=4
+[mru-list]
+1=BAI_308_STDA_PST_TSP_32LED.c
+
+[defines]
+buildcount=6
+
+[Opened Files]
+1=BAI_308_STDA_PST_TSP_32LED.c
+t1=17
+Count=1
+[Units]
+Count=1
+1=BAI_308_STDA_PST_TSP_32LED (main)
+
+[ProjectLog]
+Days=1
+D1=31-08-2023
+D1_L=2
+D1_L1=[50909]Stopped Editing.
+D1_L2=[51950]Project Closed.

@@ -1,0 +1,54 @@
+[PROJECT]
+Target=4X4KEYBOARD_CONTROL10effect.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.101
+Compiler=PCH
+[Target Data]
+FileList=4X4KEYBOARD_CONTROL10effect.c
+[4X4KEYBOARD_CONTROL10effect.c]
+Type=4
+[mru-list]
+1=4X4KEYBOARD_CONTROL10effect.c
+
+[defines]
+buildcount=10
+
+[Opened Files]
+1=BAI_334_MATRANPHIM_8LED_16_BTN_ON_OFF.c
+t1=5
+2=4X4KEYBOARD_CONTROL10effect.c
+t2=5
+3=..\..\processor\bai4\banphimmatran.c
+t3=1
+4=..\TUAN3_NUTNHANDON\BT5_NUTNHAN_10HIEUUNG_INTERRUPT.c
+t4=210
+Count=4
+[Units]
+Count=1
+1=4X4KEYBOARD_CONTROL10effect (main)
+
+[ProjectLog]
+Days=2
+D1=14-09-2023
+D1_L=4
+D1_L1=[53707]Stopped Editing.
+D1_L2=[55263]Started Editing.
+D1_L3=[55563]Stopped Editing.
+TotalEdit=17
+TotalDebug=0
+D1_E=16
+D1_D=0
+D1_L4=[59628]Project Closed.
+D2=15-09-2023
+D2_L=6
+D2_L1=[37846]Project Opened.
+D2_L2=[37847]Project Closed.
+D2_L3=[37849]Project Opened.
+D2_L4=[37889]Started Editing.
+D2_L5=[37944]Stopped Editing.
+D2_E=1
+D2_D=0
+D2_L6=[37944]Project Closed.
+
+[fileformats]
+forcecoff=0

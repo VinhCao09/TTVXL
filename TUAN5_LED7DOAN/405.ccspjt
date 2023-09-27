@@ -1,0 +1,47 @@
+[PROJECT]
+Target=405.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.101
+Compiler=PCH
+[Target Data]
+FileList=405.c
+[405.c]
+Type=4
+[mru-list]
+1=405.c
+
+[defines]
+buildcount=6
+
+[ProjectLog]
+Days=1
+D1=21-09-2023
+D1_L=11
+D1_L1=[48687]Stopped Editing.
+TotalEdit=8
+TotalDebug=0
+D1_E=8
+D1_D=0
+D1_L2=[48696]Started Editing.
+D1_L3=[48699]Stopped Editing.
+D1_L4=[48742]Started Editing.
+D1_L5=[48745]Project Closed.
+D1_L6=[48894]Project Opened.
+D1_L7=[48902]Started Editing.
+D1_L8=[49082]Stopped Editing.
+D1_L9=[49089]Started Editing.
+D1_L10=[49159]Stopped Editing.
+D1_L11=[49159]Project Closed.
+
+[fileformats]
+forcecoff=0
+
+[Opened Files]
+1=406.c
+t1=1
+Count=2
+2=405.c
+t2=1
+[Units]
+Count=1
+1=405 (main)

@@ -1,0 +1,49 @@
+[PROJECT]
+Target=SANG_DON_16LED.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.101
+Compiler=PCH
+[Target Data]
+FileList=SANG_DON_16LED.c
+[SANG_DON_16LED.c]
+Type=4
+[mru-list]
+1=SANG_DON_16LED.c
+
+[defines]
+buildcount=19
+
+[Opened Files]
+1=BAI_5_10STYLE.c
+t1=9
+Count=3
+2=BAI_308_STDA_PST_TSP_32LED.c
+t2=1
+3=SANG_DON_16LED.c
+t3=1
+
+[ProjectLog]
+Days=1
+D1=31-08-2023
+D1_L=11
+D1_L1=[53038]Project Closed.
+D1_L2=[53146]Project Opened.
+D1_L3=[53154]Started Editing.
+D1_L4=[53204]Stopped Editing.
+TotalEdit=2
+TotalDebug=0
+D1_E=2
+D1_D=0
+D1_L5=[53204]Project Closed.
+D1_L6=[53220]Project Opened.
+D1_L7=[53227]Project Closed.
+D1_L8=[53652]Project Opened.
+D1_L9=[53680]Started Editing.
+D1_L10=[53702]Stopped Editing.
+D1_L11=[53702]Project Closed.
+
+[fileformats]
+forcecoff=0
+[Units]
+Count=1
+1=SANG_DON_16LED (main)

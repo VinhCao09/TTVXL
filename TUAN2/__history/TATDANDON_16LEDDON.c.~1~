@@ -1,0 +1,31 @@
+#include <D:\TTVXL_TH\tv_pickit2_shift_1.c>
+unsigned int32 y,i,k,run,save;
+
+void main()
+{
+set_up_port_ic_chot();
+ y=0;
+ while(true)
+ {
+//! SANG DON 32LED
+   save=0;
+   for(k=0;k<32;k++)
+   {
+      run=0x00000001;
+      for(i=k; i<32;i++)
+      {
+      y=run|save;
+      xuat_32led_don_4byte(y>>24,y>>16,y>>8,y);
+      delay_ms(10);
+      run=run<<1;
+      }
+      save=y;
+   }
+//!   Chop tat 32 led
+//!xuat_32led_don_4byte(y>>24,y>>16,y>>8,y);
+//! delay_ms(200); 
+//! y= ~y; 
+
+ }
+}
+

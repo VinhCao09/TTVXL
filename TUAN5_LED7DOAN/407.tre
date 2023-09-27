@@ -1,0 +1,32 @@
+ÀÄ407
+   ÀÄMAIN  0/242  Ram=9
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@cinit2  (Inline)  Ram=0
+      ÃÄset_up_port_ic_chot  0/58  Ram=0
+      ³  ÀÄxoa_tat_6module  0/88  Ram=0
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³     ³  ÀÄxuat_1byte  0/38  Ram=2
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄxuat_1word  0/22  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÀÄxuat_1word  0/22  Ram=4
+      ³        ÀÄ*
+      ÃÄ@DIVS1616  0/116  Ram=6
+      ÃÄ@const750  0/32  Ram=0
+      ÃÄ@DIVS1616  0/116  Ram=6
+      ÃÄ@DIVS1616  0/116  Ram=6
+      ÃÄ@const750  0/32  Ram=0
+      ÃÄ@DIVS1616  0/116  Ram=6
+      ÃÄ@const750  0/32  Ram=0
+      ÃÄxuat_4led_7doan_4so  0/36  Ram=4
+      ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³  ÃÄxuat_1byte  0/38  Ram=2
+      ³  ÀÄxuat_1byte  0/38  Ram=2
+      ÀÄ@delay_ms1  0/40  Ram=1

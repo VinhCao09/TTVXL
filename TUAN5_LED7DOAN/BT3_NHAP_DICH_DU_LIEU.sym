@@ -1,0 +1,135 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004.0   step_motor_enable
+004-005 rbdc
+004.1   step_motor_in1
+004.2   step_motor_in2
+004.3   step_motor_in3
+004.4   step_motor_in4
+004.5   dc_enable
+004.6   pwrkey
+005.0   buzzer
+005.1   triac_1
+005.2   triac_2
+005.3   relay_1
+005.4   relay_2
+006     lcddata
+007     lcdcontrol
+008     glcddata
+009     glcdcontrol
+00A-011 led_7dq
+012     tt8led
+013     MPT1
+014     MPT2
+015-016 k
+017-018 i
+019-01A temp
+01B-01C mp
+01D-020 led
+021     KEY_NHAN.MAPHIM
+021-022 xuat_1word.w
+021     @delay_ms1.P1
+021     SHIFT.@SCRATCH1
+021     ARRANGE.@SCRATCH1
+021     MAIN.@SCRATCH1
+022     KEY_NHAN.HANG
+022     SHIFT.@SCRATCH2
+022     ARRANGE.@SCRATCH2
+022     MAIN.@SCRATCH2
+023     KEY_NHAN.COT
+023     xuat_1word.b1
+023     SHIFT.@SCRATCH3
+023     ARRANGE.@SCRATCH3
+023     MAIN.@SCRATCH3
+024     xuat_1word.b0
+024     @MUL88.P1
+024     KEY_NHAN.@SCRATCH1
+024     SHIFT.@SCRATCH4
+024     ARRANGE.@SCRATCH4
+024     MAIN.@SCRATCH4
+025     @MUL88.P1
+025     xuat_4led_7doan_4so.bl743
+026     xuat_4led_7doan_4so.bl742
+027     xuat_4led_7doan_4so.bl741
+028     xuat_4led_7doan_4so.bl740
+029     xuat_1byte.x
+029.7   xuat_1byte.bseri
+02A     xuat_1byte.sb
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @READ_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  ma7doan.call
+000014  ma7doan.data
+000024  MAQUETKEY.call
+000034  MAQUETKEY.data
+000038  xuat_1byte
+00005E  xuat_1word
+000074  xoa_tat_6module
+0000CC  set_up_port_ic_chot
+000106  xuat_4led_7doan_4so
+000128  @MUL88
+000174  KEY_NHAN
+0001EA  @delay_ms1
+000212  KEY_4X4_DW
+00023E  SHIFT
+000294  ARRANGE
+000372  @cinit1
+000372  MAIN
+0003A2  @cinit2
+
+Project Directory:
+    D:\TTVXL\TUAN5_LED7DOAN\
+
+Project Files:
+    BT3_NHAP_DICH_DU_LIEU.c                                 [21-Sep-23 14:27  CRC=A49A31FB]
+    ..\..\TTVXL_TH\tv_pickit2_shift_1.c                     [21-Sep-23 15:10  CRC=1A8E8D9B]
+    ..\..\TTVXL_TH\tv_pickit2_shift_1.h                     [20-Aug-22 06:49  CRC=F281E057]
+    C:\Program Files (x86)\PICC\Devices\18f4550.h           [21-Jan-21 11:37  CRC=71B7866C]
+    ..\..\TTVXL_TH\tv_pickit2_shift_key4x4_138.c            [21-Sep-23 15:34  CRC=2910C7ED]
+
+Source signature=7583B633
+Program memory checksum=0000
+Hex file CRC=02E6
+
+Units:
+    D:\TTVXL\TUAN5_LED7DOAN\BT3_NHAP_DICH_DU_LIEU (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Output Files:
+    XREF file:   BT3_NHAP_DICH_DU_LIEU.xsym
+    Errors:      BT3_NHAP_DICH_DU_LIEU.err
+    Ext Symbols: BT3_NHAP_DICH_DU_LIEU.esym
+    INHX32:      BT3_NHAP_DICH_DU_LIEU.hex
+    Symbols:     BT3_NHAP_DICH_DU_LIEU.sym
+    List:        BT3_NHAP_DICH_DU_LIEU.lst
+    Debug/COFF:  BT3_NHAP_DICH_DU_LIEU.cof
+    Project:     BT3_NHAP_DICH_DU_LIEU.ccspjt
+    Call Tree:   BT3_NHAP_DICH_DU_LIEU.tre
+    Statistics:  BT3_NHAP_DICH_DU_LIEU.STA

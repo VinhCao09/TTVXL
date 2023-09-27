@@ -1,0 +1,29 @@
+[PROJECT]
+Target=BAI_304_STD_PST_8LED.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.101
+Compiler=PCH
+[Target Data]
+FileList=BAI_304_STD_PST_8LED.c
+[BAI_304_STD_PST_8LED.c]
+Type=4
+[mru-list]
+1=BAI_304_STD_PST_8LED.c
+
+[defines]
+buildcount=2
+
+[ProjectLog]
+Days=1
+D1=31-08-2023
+D1_L=2
+D1_L1=[49468]Started Editing.
+D1_L2=[49564]Project Closed.
+
+[Opened Files]
+1=BAI_304_STD_PST_8LED.c
+t1=1
+Count=1
+[Units]
+Count=1
+1=BAI_304_STD_PST_8LED (main)
